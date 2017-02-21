@@ -1,2 +1,5 @@
 # FunFacts
-Fun Facts is the first iOS app that I build. It is based on the Build a Simple iPhone App with Swift 3 tutorial from Treehouse. The app ramdomly displays a fact from a collection into the user's screen.
+From the 'Build a Simple iPhone App' course from Treehouse, the app ramdomly displays a fact from a list of facts into the user's screen when a button is tapped.
+
+___
+![alt tag](http://i.imgur.com/QF6Zqzt.jpg)
