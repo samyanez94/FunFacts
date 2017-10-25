@@ -9,8 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var funFactLabel: UILabel!
     
+    @IBOutlet weak var funFactLabel: UILabel!
     @IBOutlet weak var funFactButton: UIButton!
     
     let factModel = FactModel()
@@ -24,7 +24,6 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
  
     @IBAction func showFunFact() {
         let randomColor = ColorModel().getRandomColor()
@@ -32,11 +31,4 @@ class ViewController: UIViewController {
         funFactButton.tintColor = randomColor
         funFactLabel.text = factModel.getRandomFact()
     }
-
 }
-
-
-
-
-
-

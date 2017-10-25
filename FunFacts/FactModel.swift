@@ -27,14 +27,3 @@ struct FactModel {
         return facts[randomNumber]
     }
 }
-
-
-
-
-
-
-
-
-
-
-
