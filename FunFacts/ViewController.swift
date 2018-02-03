@@ -18,7 +18,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Get random first fact
         funFactLabel.text = factModel.getRandomFact()
     }
  
