@@ -24,5 +24,4 @@ struct ColorModel {
         let randomNumber = GKRandomSource.sharedRandom().nextInt(upperBound: colors.count)
         return colors[randomNumber]
     }
-    
 }
